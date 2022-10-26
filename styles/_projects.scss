@@ -1,4 +1,5 @@
 .projects {
+  padding: 0 40px;
   @include tabletSS {
     padding: 20px 50px;
   }
@@ -56,5 +57,21 @@
   h3 {
     font-size: large;
     font-weight: 400;
+  }
+  .title {
+    padding: 0 40px;
+    h2 {
+      font-weight: 400;
+      font-size: 2.5rem;
+    }
+  }
+  .sectionImg {
+    padding: 10px 0;
+    img {
+      height: 40vh;
+      padding: 10px 40px;
+      object-fit: cover;
+      width: 100%;
+    }
   }
 }

@@ -16,7 +16,7 @@ export default function Projects() {
 
   return (
     <>
-      <div className="section projects" id="projects">
+      <div className=" projects" id="projects">
         <div className="title">
           <h2>Websites</h2>
         </div>
@@ -48,6 +48,10 @@ export default function Projects() {
             )
           )}
         </div>
+        <div className="sectionImg">
+          <img src="/images/project/portfolio.jpg" alt="websiteimge" />
+        </div>
+
         <div className="title">
           <h2>Mobile App</h2>
         </div>

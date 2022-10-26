@@ -61,6 +61,17 @@ export default function Navbar() {
                   <a className={styles.link}>Pharmacist</a>
                 </Link>
               </li>
+              <li
+                className={
+                  _path == "/products"
+                    ? styles.active_list_item
+                    : styles.nav_start_list_item
+                }
+              >
+                <Link href="/products">
+                  <a className={styles.link}>Products</a>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
