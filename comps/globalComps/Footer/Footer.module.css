@@ -1,5 +1,5 @@
 .wrapper {
-  background-color: rgba(4, 9, 30, 0.216);
+  background-color: rgb(197, 197, 197);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -9,7 +9,8 @@
 }
 
 .list_headers {
-  font-weight: 600;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 .contact_list {
@@ -22,20 +23,22 @@
   padding: 20px 50px;
   justify-content: center;
   justify-items: center;
-  color: #fff;
+  color: rgb(68, 69, 72);
   line-height: 1.6;
   bottom: 0;
   width: 100%;
 }
 
 .Linka {
-  color: #fff;
-  font-size: 1.4rem;
+  color: rgb(68, 69, 72);
+  font-size: 1.2rem;
   font-weight: 300;
 }
 
 .copyright {
   font-size: 1.2rem;
+  color: rgb(68, 69, 72);
+  padding: 10px 0;
 }
 @media (max-width: 700px) {
   .wrapper {

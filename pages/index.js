@@ -1,6 +1,6 @@
 import { HomeLanding } from "../comps/HomeComps/Landing/Landing";
 import About from "../comps/HomeComps/AboutUs/";
-import Objectives from "../comps/HomeComps/objectives/";
+import Objectives from "../comps/HomeComps/objectives";
 import Projects from "../comps/projects/projects";
 
 export default function Home() {
@@ -9,7 +9,6 @@ export default function Home() {
       <HomeLanding />
       <Objectives />
       <Projects />
-      <About />
     </>
   );
 }
