@@ -1,0 +1,77 @@
+.products {
+  padding: 50px 40px;
+  @include tabletSS {
+    padding: 20px 50px;
+  }
+  @include mobileSS {
+    padding: 10px 30px;
+  }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem;
+    column-gap: 2rem;
+    row-gap: 3rem;
+
+    @include mobileSS {
+      display: flex;
+      flex-direction: column;
+      padding: 2rem;
+      padding-bottom: 0;
+    }
+  }
+
+  .card {
+    background-color: #fff;
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+    @include tabletSS {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    @include mobileSS {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  .description {
+    margin: 20px 0;
+    p {
+      font-weight: 300;
+      line-height: 28px;
+      text-align: left;
+    }
+  }
+  h3 {
+    font-size: large;
+    font-weight: 400;
+  }
+  .title {
+    padding: 0 40px;
+    h2 {
+      font-weight: 400;
+      font-size: 2.5rem;
+    }
+  }
+  .sectionImg {
+    padding: 10px 0;
+    img {
+      height: 40vh;
+      padding: 10px 40px;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+}

@@ -1,10 +1,15 @@
-import { HomeLanding } from "../comps/HomeComps/Landing/Landing";
-import About from "../comps/pharmacist";
+import { Landing } from "../comps/globalComps/Landing";
+import Projects from "../comps/products/";
 
 export default function Home() {
   return (
     <>
-      <About />
+      <Landing
+        title="Hello People"
+        imgUrl="images/dark.jpg"
+        subtitle="Our subtitle"
+      />
+      <Projects />
     </>
   );
 }
