@@ -7,9 +7,8 @@ export default function Layout(props) {
   return (
     <>
       <Head>
-        <title>Eligbue Felix</title>
+        <title>Tech Company</title>
         <meta name="portfolio" content="Created by Eligbue" />
-        {/* <link rel="stylesheet" href="/styles/index.css" /> */}
       </Head>
       <Navbar />
       {props.children}

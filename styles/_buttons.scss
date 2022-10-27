@@ -1,39 +1,40 @@
-@import 'colors';
-@import 'variables';
-@import 'screensize';
+@import "colors";
+@import "variables";
+@import "screensize";
 
-.btn{ 
+.btn {
   width: 30vw;
   height: 3.5rem;
   margin: 20px 0;
-  background-color: #022044;
+  background-color: rgb(43, 42, 42);
   font-size: 1.45rem;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   transition: 0.5s ease;
-  border-radius: 50px;
+  border-radius: 10px;
   border-color: #fff;
   border-width: 1px;
   border-style: solid;
-  color:  #fff;
+  color: #fff;
 
-    &:hover{
-    background-color: #04336d;
-    }
+  &:hover {
+    background-color: #d1d1d6;
+  }
 
-    &:focus {
-        outline: none;
-    }
+  &:focus {
+    outline: none;
+  }
 
-    &:active {
-        background: #e0e4eb;
-        border: 1px solid #304169;
-        box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15), inset 0px 0px 4px rgba(20, 20, 55, 0.3);
-    }
+  &:active {
+    background: #e0e4eb;
+    border: 1px solid #d1d1d6;
+    box-shadow: inset 0px 2px 1px rgba(46, 49, 55, 0.15),
+      inset 0px 0px 4px rgba(20, 20, 55, 0.3);
+  }
 
-   @include tabletSS{
+  @include tabletSS {
     width: 40vw;
   }
 

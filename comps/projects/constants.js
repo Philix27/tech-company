@@ -1,11 +1,13 @@
 export const projects = [
   {
-    title: "Mims",
+    title: "APC DATA CAPTURE",
     group: "mobile",
     detailsPage: "/projects/mim",
-    description:
-      "Mobile Inventory Management System. An android app to track inventory of a retail shop.",
-    image: "/images/project/mims.jpg",
+    description: `
+    This is a data capture application. 
+    Used to store data of agents in all sectors for the APC Party.
+    `,
+    image: "/images/apc/apc.png",
     tags: ["Dart", "Flutter", "Firebase"],
     source: "#",
     visit: "#",
