@@ -41,24 +41,35 @@ export default function Navbar() {
 
               <li
                 className={
+                  _path == "/job"
+                    ? styles.active_list_item
+                    : styles.nav_start_list_item
+                }
+              >
+                <Link href="/job">
+                  <a className={styles.link}>Need an App?</a>
+                </Link>
+              </li>
+              <li
+                className={
                   _path == "/projects"
                     ? styles.active_list_item
                     : styles.nav_start_list_item
                 }
               >
                 <Link href="/projects">
-                  <a className={styles.link}>Application</a>
+                  <a className={styles.link}>Projects</a>
                 </Link>
               </li>
               <li
                 className={
-                  _path == "/pharmacist"
+                  _path == "/contact"
                     ? styles.active_list_item
                     : styles.nav_start_list_item
                 }
               >
-                <Link href="/pharmacist">
-                  <a className={styles.link}>Pharmacist</a>
+                <Link href="/contact">
+                  <a className={styles.link}>Contact Us</a>
                 </Link>
               </li>
               <li

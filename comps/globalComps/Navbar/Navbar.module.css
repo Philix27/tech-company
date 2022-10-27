@@ -72,12 +72,12 @@
 }
 
 .nav_start_list_item:hover {
-  background-color: #174a88;
+  background-color: rgb(43, 42, 42);
   padding: 15px 12px;
 }
 
 .active_list_item {
-  background-color: #174a88;
+  background-color: rgb(43, 42, 42);
   padding: 15px 12px;
 }
 
