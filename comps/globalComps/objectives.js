@@ -7,8 +7,9 @@ export default function Objectives() {
       <div>
         <div>
           <div className="sectionJumbotron">
-            I am a dedicated developer who aims at making my community and the
-            world a better place through the use of Technology.
+            We help you focus on your ideas and business by developing a clean
+            and fast application (website, desktop and mobile apps) for your
+            brand.
           </div>
         </div>
       </div>

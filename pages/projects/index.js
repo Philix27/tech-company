@@ -3,22 +3,27 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { sortByDate } from "../../utils";
+import { Landing } from "../../comps/globalComps/Landing";
 
 export default function ProjectsPage({ projects }) {
   return (
     <>
-      <div className="section">
-        <h1 className="sectionTitle">Flutter UI</h1>
-      </div>
-      <ProjectsGroup category="fui" projectCol={projects} />
-      <div className="section">
-        <h1 className="sectionTitle">Mobile Apps</h1>
-      </div>
-      <ProjectsGroup category="mobile" projectCol={projects} />
-      <div className="section">
-        <h1 className="sectionTitle">Web Apps</h1>
-      </div>
-      <ProjectsGroup category="web" projectCol={projects} />
+      <Landing
+        title="All Our Projects"
+        imgUrl="images/contact.jpg"
+        subtitle="We run a 247 customer care technical support services."
+      />
+      <br />
+      <br />
+      <br />
+      <br />
+      <ProjectsGroup category="fui" projectCol={projects} title="Desktops" />
+      <ProjectsGroup
+        category="mobile"
+        projectCol={projects}
+        title="Mobile Apps"
+      />
+      <ProjectsGroup category="web" projectCol={projects} title="Websites" />
     </>
   );
 }

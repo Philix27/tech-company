@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "APC DATA CAPTURE",
+    title: "APC Data Capture",
     group: "mobile",
     detailsPage: "/projects/mim",
     description: `
