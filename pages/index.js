@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Landing
-        title="Musty Philix Inc"
+        title="Hexelan"
         imgUrl="images/dark.jpg"
         subtitle="An agile tech company"
       />
